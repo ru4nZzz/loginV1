@@ -1,0 +1,109 @@
+body{
+    --primary: 146, 37, 218;
+    --color: 44, 62, 80;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow: hidden;
+    color: rgb(var(--color));
+}
+
+.der-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 35px;
+    max-width: 400px;
+}
+
+.der-login{
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+.der-login .die-inputs{
+    padding-bottom: 29px;
+    width: 100%;
+}
+
+.der-login .die-inputs .forget{
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+}
+
+.der-login .die-inputs .forget{
+    text-decoration: none;
+    color: rgb(var(--color));
+    font-size: .9rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    height:  100vh;
+    position: relative;
+}
+
+.containe:after{
+    content: normal;
+    position: absolute;
+    right: auto;
+    background: #fff;
+    height: 100vh;
+    width: 150px;
+    top: 0px;
+    transform: skewX(3deg);
+    border-radius: 40px 0px 0px 40px;
+}
+
+.der-input{
+    margin-top: 10px;
+}
+
+.der-input input{
+    width: 100%;
+    padding: 14px 20px;
+    border: 0px;
+    background: #fff;
+    border-radius: 18px;
+    border: 2px solid rgb(var(--color));
+    transition: all .25s ease;
+    opacity: .2;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.24);
+}
+
+.der-input input:focus{
+    opacity: 1;
+}
+
+.der-input label{
+    display: block;
+    padding-left: 8px;
+}
+
+.con-login footer {
+    width: 100%;
+    position: center;
+}
+
+.btn-login{
+    background: rgb(var(--primary));
+    color: #fff;
+    border: 0px;
+    padding: 14px 20px;
+    border-radius: 18px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all .25s ease;
+}
